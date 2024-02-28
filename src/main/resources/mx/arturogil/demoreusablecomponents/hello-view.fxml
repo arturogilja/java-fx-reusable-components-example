@@ -4,12 +4,10 @@
 <?import javafx.scene.layout.VBox?>
 
 <?import mx.arturogil.demoreusablecomponents.ReusableCard?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+<VBox fx:id="vBox" alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
       fx:controller="mx.arturogil.demoreusablecomponents.HelloController">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
     </padding>
 
-    <ReusableCard labelText="Card 1" buttonText="This is button" onAction="#handleClick" />
-    <ReusableCard labelText="Card 2" buttonText="This is also button" onAction="#handleOtherClick" />
 </VBox>
